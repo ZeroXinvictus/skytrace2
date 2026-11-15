@@ -16,7 +16,7 @@ class JsonTreeView extends StatelessWidget {
       width: double.infinity,
       padding: const EdgeInsets.all(AppSpacing.inner),
       decoration: BoxDecoration(
-        color: p.surfaceAlt.withOpacity(0.55),
+        color: p.surfaceAlt.withValues(alpha: 0.55),
         borderRadius: BorderRadius.circular(AppRadius.control),
         border: Border.all(color: p.surfaceAlt),
       ),
