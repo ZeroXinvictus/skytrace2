@@ -10,6 +10,7 @@ import '../theme/colors.dart';
 import '../theme/text_styles.dart';
 import '../widgets/animated_card.dart';
 import '../widgets/empty_state.dart';
+import '../widgets/loading_shimmer.dart';
 import 'certificate_screen.dart';
 
 final diagnosticsProvider = FutureProvider.autoDispose<List<DiagnosticItem>>(
