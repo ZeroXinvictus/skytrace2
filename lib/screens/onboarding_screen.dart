@@ -60,7 +60,6 @@ class _OnboardingScreenState extends ConsumerState<OnboardingScreen> {
   @override
   Widget build(BuildContext context) {
     final t = ref.watch(stringsProvider);
-    final p = context.palette;
     return Scaffold(
       body: SafeArea(
           child: Column(
