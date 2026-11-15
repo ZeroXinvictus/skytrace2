@@ -105,7 +105,7 @@ class AppComponents {
         elevation: 0,
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(AppRadius.control),
-          side: BorderSide(color: AppColors.lineStrong),
+          side: const BorderSide(color: AppColors.lineStrong),
         ),
       ),
       textButtonTheme: TextButtonThemeData(
