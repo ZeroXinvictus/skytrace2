@@ -16,6 +16,7 @@ import '../theme/colors.dart';
 import '../theme/component_styles.dart';
 import '../theme/text_styles.dart';
 import '../widgets/empty_state.dart';
+import '../widgets/loading_shimmer.dart';
 import '../widgets/filter_chip.dart';
 import '../widgets/request_tile.dart';
 import 'traffic_detail_screen.dart';
