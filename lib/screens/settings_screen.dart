@@ -14,6 +14,7 @@ import '../widgets/section_header.dart';
 import '../widgets/adblock_settings.dart';
 import '../widgets/bubble_settings.dart';
 import 'about_screen.dart';
+import '../utils/strings.dart';
 import 'certificate_screen.dart';
 import 'diagnostics_screen.dart';
 import 'logs_screen.dart';
