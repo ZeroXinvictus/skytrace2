@@ -40,8 +40,6 @@ void main() {
     });
   });
 
-  // Avoid building full ThemeData here — google_fonts tries to fetch
-  // fonts and fails under TestWidgetsFlutterBinding (no network / no assets).
   test('light and dark themes both use the dark codesnip palette', () {
     expect(AppPalette.dark.background, AppColors.ink);
     expect(AppTheme.modeFrom('anything'), ThemeMode.dark);
