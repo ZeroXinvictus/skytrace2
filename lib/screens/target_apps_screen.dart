@@ -12,6 +12,7 @@ import '../theme/component_styles.dart';
 import '../theme/text_styles.dart';
 import '../widgets/app_icon.dart';
 import '../widgets/empty_state.dart';
+import '../widgets/loading_shimmer.dart';
 import '../widgets/sky_button.dart';
 
 class TargetAppsScreen extends ConsumerStatefulWidget {
