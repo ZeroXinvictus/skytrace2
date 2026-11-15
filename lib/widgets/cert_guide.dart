@@ -72,7 +72,7 @@ class _CertGuideState extends ConsumerState<CertGuide> with WidgetsBindingObserv
       final color = ok ? AppColors.successGreen : AppColors.warningAmber;
       return Container(
         padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
-        decoration: BoxDecoration(color: color.withOpacity(0.12), borderRadius: BorderRadius.circular(AppRadius.pill)),
+        decoration: BoxDecoration(color: color.withValues(alpha: 0.12), borderRadius: BorderRadius.circular(AppRadius.pill)),
         child: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
@@ -170,7 +170,7 @@ class _CertGuideState extends ConsumerState<CertGuide> with WidgetsBindingObserv
           Container(
             padding: const EdgeInsets.all(AppSpacing.inner),
             decoration: BoxDecoration(
-              color: AppColors.warningAmber.withOpacity(0.1),
+              color: AppColors.warningAmber.withValues(alpha: 0.1),
               borderRadius: BorderRadius.circular(AppRadius.control),
             ),
             child: Row(
