@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:skytrace/theme/app_theme.dart';
 import 'package:skytrace/theme/colors.dart';
 import 'package:skytrace/theme/icons.dart';
@@ -14,6 +15,10 @@ double contrast(Color a, Color b) {
 }
 
 void main() {
+  setUpAll(() {
+    GoogleFonts.config.allowRuntimeFetching = false;
+  });
+
   group('text meets AA on the dark surfaces', () {
     const palette = AppPalette.dark;
 
