@@ -16,6 +16,7 @@ import '../utils/strings.dart';
 import '../widgets/animated_card.dart';
 import '../widgets/app_icon.dart';
 import '../widgets/empty_state.dart';
+import '../widgets/loading_shimmer.dart';
 import '../widgets/section_header.dart';
 import '../widgets/stat_tile.dart';
 
@@ -181,7 +182,7 @@ class _SeriesChart extends StatelessWidget {
             color: AppColors.primaryBlue,
             barWidth: 2.5,
             dotData: const FlDotData(show: false),
-            belowBarData: BarAreaData(show: true, color: AppColors.accentBlue.withOpacity(0.2)),
+            belowBarData: BarAreaData(show: true, color: AppColors.accentBlue.withValues(alpha: 0.2)),
           ),
         ],
       ),
