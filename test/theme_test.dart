@@ -15,7 +15,7 @@ double contrast(Color a, Color b) {
 
 void main() {
   group('text meets AA on the dark surfaces', () {
-    final palette = AppPalette.dark;
+    const palette = AppPalette.dark;
 
     test('primary text', () {
       expect(contrast(palette.textPrimary, palette.background), greaterThanOrEqualTo(4.5));
